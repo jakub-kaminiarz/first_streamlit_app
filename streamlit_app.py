@@ -33,3 +33,5 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 
 # Display normalized table on the page.
 streamlit.dataframe(fruityvice_normalized)
+
+import snowfalke.connector
